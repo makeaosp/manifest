@@ -101,6 +101,9 @@ https://gerrit.googlesource.com/git-repo/+/HEAD/docs/manifest-format.md
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/usb_vendor_product.mk" src="vendor_product.mk"/>
   </project>
 
+  <!-- device/qcom/vendor-common -->
+  <project path="device/qcom/vendor-common" name="AOSPA/android_device_qcom_vendor-common" remote="aospa" />
+
   <!-- Vibrator -->
   <remove-project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" />
   <project name="AOSPA/android_vendor_qcom-opensource_vibrator" path="vendor/qcom/opensource/vibrator" groups="qcom,pdk-qcom" remote="aospa" >
